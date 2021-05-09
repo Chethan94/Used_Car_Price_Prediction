@@ -1,4 +1,4 @@
-# https://blog.finxter.com/deploying-a-machine-learning-model-in-fastapi/
+o# https://blog.finxter.com/deploying-a-machine-learning-model-in-fastapi/
 import uvicorn
 from fastapi import FastAPI
 import numpy as np
@@ -12,7 +12,7 @@ model=pickle.load(pickle_in)
 
 @app.get("/")
 async def root():
-    return {"message": "Model is working He He"}
+    return {"message": "Deployment is working He He"}
 
 @app.post("/predict")
 def predict(car_condition:float,age: int, transmission: str,insurance: str,fuel_type:str):
