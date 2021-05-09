@@ -1,4 +1,3 @@
-o# https://blog.finxter.com/deploying-a-machine-learning-model-in-fastapi/
 import uvicorn
 from fastapi import FastAPI
 import numpy as np
