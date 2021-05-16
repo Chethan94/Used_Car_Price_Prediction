@@ -1,5 +1,6 @@
 numpy
 scipy
+sklearn
 scikit-learn
 matplotlib
 pandas
@@ -7,5 +8,6 @@ fastapi
 uvicorn
 gunicorn==19.9.0
 uvloop
+pickle
 httptools
 statsmodels
